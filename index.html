@@ -5,6 +5,7 @@
     <title>Sample Google Homepage</title>
 
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -16,17 +17,17 @@
         <nav>
             <a href="#">Gmail</a>
             <a href="#">Images</a>
-            <p>Placeholder</p>
-            <p>Placeholder</p>
+            <a href="#">Apps</a>
+            <a href="#">Profile</a>
         </nav>
     </header>
     <main>
-        <div>
+        <div id="content-wrapper">
             <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="This is where the google logo will go"/>
             <form>
-                <input type="search"><br>
-                <input type="button">
-                <input type="button">
+                <label><input type="search"></label><br>
+                <input type="submit" value="Google Search" type="submit">
+                <input type="submit" value="I'm Feeling Lucky" type="submit">
             </form>
         </div>
     </main>
@@ -34,7 +35,7 @@
         <nav>
             <a href="#">Advertising</a>
             <a href="#">Business</a>
-            <a href="#">How Search Works</a>
+            <a href="#">How Search works</a>
         </nav>
         <nav>
             <a href="#">Privacy</a>
